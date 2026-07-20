@@ -1,0 +1,262 @@
+[
+  {
+    "id": "k1",
+    "kategori": "Komunikasi",
+    "bidang": "Negosiasi",
+    "persentase": 90,
+    "deskripsi": "Kemampuan dalam bernegosiasi untuk mencapai kesepakatan yang menguntungkan kedua belah pihak.",
+    "penguasaan": [
+      "Negosiasi B2B",
+      "Manajemen Konflik",
+      "Diplomasi",
+      "Persuasi"
+    ]
+  },
+  {
+    "id": "k2",
+    "kategori": "Komunikasi",
+    "bidang": "Public Speaking",
+    "persentase": 85,
+    "deskripsi": "Keahlian berbicara di depan umum dengan percaya diri dan komunikatif.",
+    "penguasaan": [
+      "Presentasi Bisnis",
+      "MC/Moderator",
+      "Pidato",
+      "Storytelling"
+    ]
+  },
+  {
+    "id": "k3",
+    "kategori": "Komunikasi",
+    "bidang": "Marketing",
+    "persentase": 80,
+    "deskripsi": "Strategi pemasaran dan promosi untuk meningkatkan penjualan dan brand awareness.",
+    "penguasaan": [
+      "Digital Marketing",
+      "SEO/SEM",
+      "Social Media Management",
+      "Market Research"
+    ]
+  },
+  {
+    "id": "k4",
+    "kategori": "Komunikasi",
+    "bidang": "Copywriting",
+    "persentase": 85,
+    "deskripsi": "Penulisan teks persuasif untuk keperluan pemasaran dan iklan.",
+    "penguasaan": [
+      "Ad Copy",
+      "Email Marketing",
+      "Blog Post",
+      "Sales Page"
+    ]
+  },
+  {
+    "id": "k5",
+    "kategori": "Komunikasi",
+    "bidang": "Public Relations",
+    "persentase": 75,
+    "deskripsi": "Membangun dan memelihara hubungan baik antara perusahaan dan publik.",
+    "penguasaan": [
+      "Media Relations",
+      "Press Release",
+      "Event Management",
+      "Crisis Management"
+    ]
+  },
+  {
+    "id": "k6",
+    "kategori": "Teknologi",
+    "bidang": "Web Development",
+    "persentase": 95,
+    "deskripsi": "Pengembangan situs web dari sisi front-end maupun back-end.",
+    "penguasaan": [
+      "React",
+      "Node.js",
+      "TypeScript",
+      "Tailwind CSS"
+    ]
+  },
+  {
+    "id": "k7",
+    "kategori": "Teknologi",
+    "bidang": "AI Development",
+    "persentase": 85,
+    "deskripsi": "Membangun sistem dan aplikasi menggunakan teknologi kecerdasan buatan.",
+    "penguasaan": [
+      "Machine Learning",
+      "NLP",
+      "Computer Vision",
+      "Prompt Engineering"
+    ]
+  },
+  {
+    "id": "k8",
+    "kategori": "Teknologi",
+    "bidang": "Database Management",
+    "persentase": 90,
+    "deskripsi": "Pengelolaan dan perancangan basis data yang efisien dan aman.",
+    "penguasaan": [
+      "SQL (PostgreSQL)",
+      "NoSQL (MongoDB)",
+      "Redis",
+      "Firebase"
+    ]
+  },
+  {
+    "id": "k9",
+    "kategori": "Teknologi",
+    "bidang": "Cloud Computing",
+    "persentase": 80,
+    "deskripsi": "Penyediaan sumber daya komputasi melalui internet.",
+    "penguasaan": [
+      "AWS",
+      "Google Cloud",
+      "Docker",
+      "Kubernetes"
+    ]
+  },
+  {
+    "id": "k10",
+    "kategori": "Teknologi",
+    "bidang": "System Architecture",
+    "persentase": 85,
+    "deskripsi": "Merancang dan membangun arsitektur sistem yang skalabel dan handal.",
+    "penguasaan": [
+      "Microservices",
+      "REST API",
+      "GraphQL",
+      "System Design"
+    ]
+  },
+  {
+    "id": "k11",
+    "kategori": "Kreatif",
+    "bidang": "Graphic Design",
+    "persentase": 85,
+    "deskripsi": "Perancangan elemen visual untuk berbagai keperluan desain.",
+    "penguasaan": [
+      "Adobe Photoshop",
+      "Adobe Illustrator",
+      "CorelDraw",
+      "Figma"
+    ]
+  },
+  {
+    "id": "k12",
+    "kategori": "Kreatif",
+    "bidang": "UI/UX Design",
+    "persentase": 90,
+    "deskripsi": "Desain antarmuka dan pengalaman pengguna yang intuitif dan menarik.",
+    "penguasaan": [
+      "Wireframing",
+      "Prototyping",
+      "User Testing",
+      "Interaction Design"
+    ]
+  },
+  {
+    "id": "k13",
+    "kategori": "Kreatif",
+    "bidang": "Video Editing",
+    "persentase": 80,
+    "deskripsi": "Penyuntingan video untuk menghasilkan konten yang menarik dan profesional.",
+    "penguasaan": [
+      "Adobe Premiere",
+      "After Effects",
+      "DaVinci Resolve",
+      "CapCut"
+    ]
+  },
+  {
+    "id": "k14",
+    "kategori": "Kreatif",
+    "bidang": "Content Creation",
+    "persentase": 85,
+    "deskripsi": "Pembuatan konten visual dan teks untuk platform digital.",
+    "penguasaan": [
+      "TikTok",
+      "Instagram Reels",
+      "YouTube",
+      "Blogging"
+    ]
+  },
+  {
+    "id": "k15",
+    "kategori": "Kreatif",
+    "bidang": "Animation",
+    "persentase": 70,
+    "deskripsi": "Pembuatan animasi 2D dan 3D untuk berbagai kebutuhan.",
+    "penguasaan": [
+      "Motion Graphics",
+      "Character Animation",
+      "Lottie",
+      "Blender"
+    ]
+  },
+  {
+    "id": "k16",
+    "kategori": "Administrasi",
+    "bidang": "Ms. Office",
+    "persentase": 95,
+    "deskripsi": "Penguasaan aplikasi perkantoran untuk administrasi harian.",
+    "penguasaan": [
+      "Word",
+      "Excel",
+      "PowerPoint",
+      "Access"
+    ]
+  },
+  {
+    "id": "k17",
+    "kategori": "Administrasi",
+    "bidang": "Manajemen Keuangan",
+    "persentase": 85,
+    "deskripsi": "Pengelolaan arus kas, anggaran, dan laporan keuangan.",
+    "penguasaan": [
+      "Budgeting",
+      "Financial Reporting",
+      "Auditing",
+      "Taxation"
+    ]
+  },
+  {
+    "id": "k18",
+    "kategori": "Administrasi",
+    "bidang": "Manajemen Proyek",
+    "persentase": 90,
+    "deskripsi": "Perencanaan, pelaksanaan, dan pengawasan proyek hingga selesai.",
+    "penguasaan": [
+      "Agile/Scrum",
+      "Trello",
+      "Jira",
+      "Asana"
+    ]
+  },
+  {
+    "id": "k19",
+    "kategori": "Administrasi",
+    "bidang": "Pembukuan",
+    "persentase": 85,
+    "deskripsi": "Pencatatan transaksi keuangan secara sistematis dan akurat.",
+    "penguasaan": [
+      "Jurnal Umum",
+      "Buku Besar",
+      "Neraca Saldo",
+      "Laporan Laba Rugi"
+    ]
+  },
+  {
+    "id": "k20",
+    "kategori": "Administrasi",
+    "bidang": "Data Entry",
+    "persentase": 95,
+    "deskripsi": "Pengisian data ke dalam sistem komputer dengan cepat dan akurat.",
+    "penguasaan": [
+      "Kecepatan Mengetik",
+      "Akurasi Data",
+      "Database Input",
+      "Data Cleaning"
+    ]
+  }
+]

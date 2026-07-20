@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://alvareza.my.id/sitemap.xml

@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap');
+@import "tailwindcss";
+
+@custom-variant dark (&:where(.dark, .dark *));
+
+@theme {
+  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+  --color-accent: #02227E;
+  --color-slate-50: #FBFDFF;
+  --color-slate-900: #64748B; /* very soft grey for text/icons */
+  --color-slate-800: #788A9E;
+  --color-slate-600: #8E9EAF;
+  --color-slate-950: #334155;
+}
+
+body {
+  @apply bg-white dark:bg-slate-950 text-slate-900 dark:text-slate-100;
+}
+
+/* High contrast assertive text colors for inputs, textareas, selects, and options - thin and small */
+input:not([type="checkbox"]):not([type="radio"]):not([type="color"]),
+textarea,
+select,
+option,
+.text-assertive {
+  color: #1e293b !important;
+  font-weight: 400 !important;
+  font-size: 0.8125rem !important;
+}
+
+.dark input:not([type="checkbox"]):not([type="radio"]):not([type="color"]),
+.dark textarea,
+.dark select,
+.dark option,
+.dark .text-assertive {
+  color: #f8fafc !important;
+}
+
+/* Ensure placeholder visibility */
+input::placeholder,
+textarea::placeholder {
+  color: #94a3b8 !important;
+}
+.dark input::placeholder,
+.dark textarea::placeholder {
+  color: #475569 !important;
+}
+
+.recharts-wrapper,
+.recharts-wrapper *,
+.recharts-surface {
+  outline: none !important;
+}
+
+/* Custom Thin Scrollbar */
+::-webkit-scrollbar {
+  width: 4px;
+}
+
+::-webkit-scrollbar:horizontal {
+  display: none;
+  height: 0;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgba(203, 213, 225, 0.4);
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(148, 163, 184, 0.6);
+}
+
+/* Firefox */
+* {
+  scrollbar-width: thin;
+  scrollbar-color: rgba(203, 213, 225, 0.4) transparent;
+}
+
+/* Custom highlighted textarea classes for Cover Letter Editor */
+textarea.custom-textarea-class {
+  color: transparent !important;
+  -webkit-text-fill-color: transparent !important;
+  font-size: 13px !important;
+  font-weight: 400 !important;
+  line-height: 1.625 !important;
+  font-family: "Inter", ui-sans-serif, system-ui, sans-serif !important;
+  padding: 12px 16px !important;
+  letter-spacing: 0px !important;
+  word-spacing: 0px !important;
+  text-transform: none !important;
+  text-indent: 0px !important;
+  caret-color: #1e293b !important;
+}
+
+.dark textarea.custom-textarea-class {
+  caret-color: #f8fafc !important;
+}
+
+.custom-backdrop-class {
+  font-size: 13px !important;
+  font-weight: 400 !important;
+  line-height: 1.625 !important;
+  font-family: "Inter", ui-sans-serif, system-ui, sans-serif !important;
+  padding: 12px 16px !important;
+  letter-spacing: 0px !important;
+  word-spacing: 0px !important;
+  text-transform: none !important;
+  text-indent: 0px !important;
+  color: #334155 !important;
+  border: 0 !important;
+  margin: 0 !important;
+  box-sizing: border-box !important;
+  scrollbar-width: none !important;
+  -ms-overflow-style: none !important;
+}
+
+.dark .custom-backdrop-class {
+  color: #e2e8f0 !important;
+}
+
+textarea.custom-textarea-class::-webkit-scrollbar {
+  display: none !important;
+}
+
+.custom-backdrop-class::-webkit-scrollbar {
+  display: none !important;
+}
+
+textarea.custom-textarea-class::selection {
+  background-color: rgba(59, 130, 246, 0.3) !important;
+  color: transparent !important;
+  -webkit-text-fill-color: transparent !important;
+}
+
+textarea.custom-textarea-class::-moz-selection {
+  background-color: rgba(59, 130, 246, 0.3) !important;
+  color: transparent !important;
+  -webkit-text-fill-color: transparent !important;
+}
+

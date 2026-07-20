@@ -1,0 +1,33 @@
+-- Seeding data for Table: pencapaian
+DELETE FROM pencapaian;
+
+INSERT INTO pencapaian (id, tingkat, judul, penerbit, deskripsi, kategori, tahun, sertifikat) VALUES
+('ach-2', 'Tingkat Nasional', 'Presentator Meeting Nasional Konica Minolta', 'Konica Minolta', 'Menjadi presentator dalam pertemuan tingkat nasional.', 'Presentasi', '2024', ''),
+('ach-19', 'Tingkat Provinsi', 'Ketua Penyelenggara Stand Up Comedy Piala Gubernur', 'Pemerintah Provinsi', 'Menjadi ketua penyelenggara acara Stand Up Comedy Piala Gubernur.', 'Kepanitiaan', '2025', '/gambar/sertifikat/kepemimpinan2.webp'),
+('ach-12', 'Tingkat Kampus', 'Moderator Seminar Kementerian Keuangan', 'Kampus & Kemenkeu', 'Memoderasi acara seminar kerja sama kampus dan Kementerian Keuangan.', 'Moderator', '2024', '/gambar/sertifikat/public-speaking1.webp'),
+('ach-4', 'Tingkat Nasional', 'Host Podcast Putra Batik Indonesia', 'Putra Batik Indonesia', 'Menjadi host untuk podcast resmi.', 'Public Speaking', '2023', ''),
+('ach-8', 'Tingkat Kabupaten', 'Juri Kompetisi UMKM Bangga Kencana Kab. Purwakarta', 'Pemkab Purwakarta', 'Dipercaya sebagai juri kompetisi UMKM.', 'Juri', '2023', ''),
+('ach-17', 'Tingkat Kampus', 'Presiden Mahasiswa STIE Wikara', 'STIE Wikara', 'Menjabat sebagai Presiden Mahasiswa.', 'Organisasi', '2024', '/gambar/sertifikat/kepemimpinan1.webp'),
+('ach-26', 'Tingkat Kampus', 'Head of Business Education UKM KWU STIE Wikara', 'UKM KWU STIE Wikara', 'Menjabat sebagai Head of Business Education di Unit Kegiatan Mahasiswa Kewirausahaan STIE Wikara.', 'Organisasi', '2025', '/gambar/sertifikat/bisnis-digital5.webp'),
+('ach-6', 'Tingkat Kabupaten', 'Pemateri Seminar Fosta', 'Fosta', 'Menjadi pemateri dalam seminar edukasi.', 'Pemateri', '2024', '/gambar/sertifikat/public-speaking4.webp'),
+('ach-7', 'Tingkat Kabupaten', 'Pemateri Edufest Lebih Kenal Manajemen', 'Edufest', 'Memberikan materi pengenalan manajemen.', 'Pemateri', '2024', '/gambar/sertifikat/public-speaking1.webp'),
+('ach-25', 'Tingkat Kampus', 'Pembicara Mini Seminar Kewirausahaan', 'UKM KWU STIE Wikara', 'Dipercaya sebagai pembicara dalam acara Mini Seminar Kewirausahaan untuk menginspirasi mahasiswa.', 'Pemateri', '2024', '/gambar/sertifikat/public-speaking3.webp'),
+('ach-16', 'Tingkat Kampus', 'Mahasiswa PKKMB Terbaik', 'Kampus', 'Terpilih sebagai mahasiswa terbaik pada masa orientasi.', 'Penghargaan', '2022', '/gambar/sertifikat/prestasi2.webp'),
+('ach-1', 'Tingkat Nasional', 'Team Grand Opening Vany Villa Balige Sumatra Utara', 'Vany Villa', 'Berpartisipasi sebagai tim pelaksana dalam acara grand opening.', 'Kepanitiaan', '2024', ''),
+('ach-32', 'Tingkat Kabupaten', 'Ketua Pelaksana GenRe Berbagi Senyuman', 'GenRe Purwakarta', 'Memimpin pelaksanaan program kegiatan sosial kemanusiaan.', 'Kepanitiaan', '2024', ''),
+('ach-27', 'Tingkat Kampus', 'Apresiasi Steering Committee PKKMB', 'STIE Wikara', 'Menerima penghargaan dan apresiasi atas kontribusi sebagai Steering Committee PKKMB 2025.', 'Kepanitiaan', '2025', '/gambar/sertifikat/kepemimpinan4.webp'),
+('ach-9', 'Tingkat Kabupaten', 'Moderator Seminar Keorganisasian Indonesia', 'Seminar', 'Memoderasi seminar keorganisasian Indonesia.', 'Moderator', '2023', '/gambar/sertifikat/public-speaking2.webp'),
+('ach-3', 'Tingkat Nasional', 'Meet Exclusive Bincang Ulos', 'Bincang Ulos', 'Turut serta dalam kegiatan Meet Exclusive.', 'Partisipasi', '2024', ''),
+('ach-18', 'Tingkat Kampus', 'Director of Tak Kasat (Film Dokumenter Horor Mahasiswa)', 'Mahasiswa', 'Menjadi sutradara film dokumenter horor mahasiswa.', 'Sutradara', '2025', '/gambar/sertifikat/kepemimpinan3.webp'),
+('ach-29', 'Tingkat Kampus', 'MC PORSA 2024', 'Panitia PORSA STIE Wikara', 'Bertindak sebagai Master of Ceremony (MC) dalam gelaran Pekan Olahraga dan Seni Akademik (PORSA) 2024.', 'Public Speaking', '2024', '/gambar/sertifikat/public-speaking5.webp'),
+('ach-31', 'Tingkat Kampus', 'Executive Producer WIHUB', 'Wihub UKM', 'Bertanggung jawab atas production kegiatan and acara UKM.', 'Kepanitiaan', '2024', ''),
+('ach-34', 'Tingkat Kampus', 'Ketua Divisi Acara Pekan Olahraga Mahasiswa', 'BEM', 'Merancang dan mengeksekusi rangkaian acara Pekan Olahraga Mahasiswa.', 'Kepanitiaan', '2024', ''),
+('ach-13', 'Tingkat Kampus', 'Moderator Debat Pemira', 'Panitia Pemira', 'Memandu debat kandidat pemilihan raya tingkat kampus.', 'Moderator', '2024', ''),
+('ach-15', 'Tingkat Kampus', 'Moderator Diksi', 'Diksi', 'Menjadi moderator dalam acara Diksi.', 'Moderator', '2023', ''),
+('ach-30', 'Tingkat Kampus', 'Ketua Divisi Seksi Acara PEMIRA', 'BEM', 'Mengelola rangkaian acara pemilihan raya mahasiswa.', 'Kepanitiaan', '2022', ''),
+('ach-10', 'Tingkat Kampus', 'Delegasi Promosi Kampus', 'Kampus', 'Menjadi perwakilan untuk kegiatan promosi kampus.', 'Delegasi', '2023', ''),
+('ach-28', 'Tingkat Kecamatan', 'Dewan Juri Lomba UPPKA Kecamatan Campaka', 'Kecamatan Campaka Purwakarta', 'Menerima apresiasi atas peran sebagai Dewan Juri Lomba UPPKA tingkat Kecamatan Campaka, Purwakarta.', 'Juri', '2023', '/gambar/sertifikat/bisnis-digital4.webp'),
+('ach-11', 'Tingkat Kecamatan', 'Pengibar Bendera - Paskibra Kecamatan Kiarapedes', 'Kecamatan Kiarapedes', 'Menjadi anggota paskibraka tingkat kecamatan sebagai pengibar bendera.', 'Paskibra', '2017', '/gambar/sertifikat/prestasi7.webp'),
+('ach-22', 'Tingkat Kabupaten', 'Peserta Lomba IPA Kabupaten Purwakarta', 'Dinas Pendidikan Kabupaten Purwakarta', 'Berpartisipasi aktif dalam kegiatan Lomba IPA tingkat Kabupaten Purwakarta.', 'Partisipasi', '2017', '/gambar/sertifikat/prestasi6.webp'),
+('ach-33', 'Tingkat Kecamatan', 'Pelatih Paskibra', 'Kecamatan Kiarapedes', 'Melatih kedisiplinan dan keterampilan baris-berbaris.', 'Kepanitiaan', '', ''),
+('ach-35', 'Tingkat Sekolah', 'Duta Baca SMP', 'SMP', 'Berhasil membaca 167 buku dalam 3 bulan dan menjelaskan ulang resensinya.', 'Penghargaan', '', '');

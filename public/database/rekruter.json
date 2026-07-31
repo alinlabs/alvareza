@@ -1,0 +1,22 @@
+[
+  {
+    "id": "rec-1",
+    "nama": "Budi Santoso",
+    "jabatan": "HR Manager",
+    "perusahaan": "PT Global Tech",
+    "posisi": "Frontend Developer",
+    "whatsapp": "6281234567890",
+    "catatan": "Lowongan aktif hingga akhir bulan ini. Membutuhkan React developer.",
+    "gender": "pria"
+  },
+  {
+    "id": "rec-2",
+    "nama": "Siti Rahma",
+    "jabatan": "Recruiter",
+    "perusahaan": "CV Kreatif Digital",
+    "posisi": "Social Media Specialist",
+    "whatsapp": "628987654321",
+    "catatan": "Sangat menyukai portofolio desain visual.",
+    "gender": "wanita"
+  }
+]

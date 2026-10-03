@@ -1,0 +1,15 @@
+{
+  "version": "1.0",
+  "type": "rich",
+  "provider_name": "MyCivy",
+  "provider_url": "https://alvareza.vercel.app",
+  "title": "My Professional CV — Alvareza Hilka Pratama",
+  "author_name": "Alvareza Hilka Pratama",
+  "author_url": "https://alvareza.vercel.app",
+  "thumbnail_url": "https://alvareza.vercel.app/og-image.jpg",
+  "thumbnail_width": 1200,
+  "thumbnail_height": 630,
+  "html": "<p>Curriculum Vitae (CV) ATS-Friendly &amp; Portofolio Alvareza Hilka Pratama. Business Operations &amp; Certified HR Specialist.</p>",
+  "width": 600,
+  "height": 800
+}

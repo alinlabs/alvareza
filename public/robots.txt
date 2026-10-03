@@ -1,0 +1,12 @@
+User-agent: *
+Allow: /
+Allow: /cv
+Allow: /all
+Allow: /portofolio
+Allow: /portfolio
+Allow: /sertifikasi
+Allow: /sertifikat
+Allow: /certifications
+Allow: /api/health
+
+Sitemap: https://alvareza.vercel.app/sitemap.xml

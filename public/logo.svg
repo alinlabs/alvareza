@@ -1,0 +1,64 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="100%" height="100%">
+  <defs>
+    <!-- Background Gradient -->
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0284c7"/>
+      <stop offset="50%" stop-color="#2563eb"/>
+      <stop offset="100%" stop-color="#1e1b4b"/>
+    </linearGradient>
+
+    <!-- Document Card Surface Gradient -->
+    <linearGradient id="cardGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#ffffff"/>
+      <stop offset="100%" stop-color="#f8fafc"/>
+    </linearGradient>
+
+    <!-- Accent / Checkmark Gradient -->
+    <linearGradient id="accentGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#38bdf8"/>
+      <stop offset="100%" stop-color="#0284c7"/>
+    </linearGradient>
+
+    <!-- Subtle Shadow Filter -->
+    <filter id="dropShadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="12" stdDeviation="16" flood-color="#090d16" flood-opacity="0.35"/>
+    </filter>
+  </defs>
+
+  <!-- Rounded Squircle Background Box -->
+  <rect x="16" y="16" width="480" height="480" rx="108" fill="url(#bgGrad)"/>
+
+  <!-- Main Document Container with Shadow -->
+  <g filter="url(#dropShadow)">
+    <!-- Document Body Sheet -->
+    <path d="M 144 104 C 144 92.4 153.4 83 165 83 L 300 83 C 306 83 311 85.4 315 89.4 L 368.6 143 C 372.6 147 375 152 375 158 L 375 397 C 375 408.6 365.6 418 354 418 L 165 418 C 153.4 418 144 408.6 144 397 Z" fill="url(#cardGrad)"/>
+    
+    <!-- Folded Corner Triangle -->
+    <path d="M 300 83 L 300 138 C 300 148 308 156 318 156 L 375 156 Z" fill="#cbd5e1"/>
+  </g>
+
+  <!-- Document Header Lines (Simulated Resume Content) -->
+  <!-- Avatar / Badge Circle -->
+  <circle cx="195" cy="155" r="22" fill="#0284c7" opacity="0.15"/>
+  <circle cx="195" cy="155" r="14" fill="#0284c7"/>
+
+  <!-- Resume Header Title Lines -->
+  <rect x="232" y="142" width="100" height="12" rx="6" fill="#0f172a"/>
+  <rect x="232" y="162" width="65" height="8" rx="4" fill="#64748b"/>
+
+  <!-- Divider Line -->
+  <line x1="180" y1="200" x2="332" y2="200" stroke="#e2e8f0" stroke-width="3" stroke-linecap="round"/>
+
+  <!-- ATS Skill & Experience Lines -->
+  <rect x="180" y="220" width="152" height="8" rx="4" fill="#94a3b8"/>
+  <rect x="180" y="238" width="120" height="8" rx="4" fill="#cbd5e1"/>
+  <rect x="180" y="256" width="138" height="8" rx="4" fill="#cbd5e1"/>
+
+  <!-- Dynamic Verification Badge & Checkmark (MyCivy Verified Emblem) -->
+  <g transform="translate(260, 275)" filter="url(#dropShadow)">
+    <circle cx="60" cy="60" r="48" fill="url(#accentGrad)"/>
+    <circle cx="60" cy="60" r="40" fill="#2563eb"/>
+    <!-- Bold Checkmark Path -->
+    <path d="M 42 60 L 54 72 L 78 48" fill="none" stroke="#ffffff" stroke-width="10" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+</svg>

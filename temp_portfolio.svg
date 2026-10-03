@@ -1,0 +1,64 @@
+<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1200 630' width='1200' height='630'>
+  <defs>
+    <linearGradient id='bg' x1='0%' y1='0%' x2='100%' y2='100%'>
+      <stop offset='0%' stop-color='#0b1120' />
+      <stop offset='50%' stop-color='#0f172a' />
+      <stop offset='100%' stop-color='#03264c' />
+    </linearGradient>
+    <linearGradient id='accent' x1='0%' y1='0%' x2='100%' y2='0%'>
+      <stop offset='0%' stop-color='#0284c7' />
+      <stop offset='100%' stop-color='#38bdf8' />
+    </linearGradient>
+  </defs>
+
+  <rect width='1200' height='630' fill='url(#bg)' />
+
+  <!-- Grid decoration lines -->
+  <path d='M0 120 H1200 M0 520 H1200 M100 0 V630 M1100 0 V630' stroke='#1e293b' stroke-width='1' stroke-opacity='0.4' />
+
+  <!-- Top Badge -->
+  <rect x='80' y='65' width='260' height='36' rx='18' fill='#0284c7' fill-opacity='0.15' stroke='#0284c7' stroke-width='1.5' />
+  <text x='210' y='89' fill='#38bdf8' font-family='sans-serif' font-size='14' font-weight='bold' text-anchor='middle' letter-spacing='1.5'>EXECUTIVE PORTFOLIO</text>
+
+  <rect x='360' y='65' width='180' height='36' rx='18' fill='#10b981' fill-opacity='0.15' stroke='#10b981' stroke-width='1.5' />
+  <text x='450' y='89' fill='#34d399' font-family='sans-serif' font-size='14' font-weight='bold' text-anchor='middle' letter-spacing='1.5'>50+ WEB APPS</text>
+
+  <!-- Name -->
+  <text x='80' y='165' fill='#ffffff' font-family='sans-serif' font-size='48' font-weight='900' letter-spacing='-0.5'>Alvareza Hilka Pratama</text>
+
+  <!-- Headline -->
+  <text x='80' y='215' fill='#38bdf8' font-family='sans-serif' font-size='24' font-weight='bold'>Digital Solutions, Operations Transformation &amp; System Architecture</text>
+
+  <!-- Divider -->
+  <line x1='80' y1='245' x2='1120' y2='245' stroke='#334155' stroke-width='1.5' />
+
+  <!-- Cards Grid (3 cards) -->
+  <!-- Card 1 -->
+  <rect x='80' y='270' width='325' height='210' rx='14' fill='#1e293b' fill-opacity='0.6' stroke='#334155' stroke-width='1.5' />
+  <text x='105' y='310' fill='#38bdf8' font-family='sans-serif' font-size='18' font-weight='bold'>Enterprise ERP &amp; Supply</text>
+  <text x='105' y='345' fill='#e2e8f0' font-family='sans-serif' font-size='14' font-weight='600'>• Logistor (Smart Logistics)</text>
+  <text x='105' y='375' fill='#e2e8f0' font-family='sans-serif' font-size='14' font-weight='600'>• Mitra Gateway (B2B Portal)</text>
+  <text x='105' y='405' fill='#94a3b8' font-family='sans-serif' font-size='13'>13 Outlets Supervised</text>
+  <text x='105' y='435' fill='#94a3b8' font-family='sans-serif' font-size='13'>Inventory &amp; Stock Governance</text>
+
+  <!-- Card 2 -->
+  <rect x='435' y='270' width='325' height='210' rx='14' fill='#1e293b' fill-opacity='0.6' stroke='#334155' stroke-width='1.5' />
+  <text x='460' y='310' fill='#38bdf8' font-family='sans-serif' font-size='18' font-weight='bold'>SaaS &amp; Management</text>
+  <text x='460' y='345' fill='#e2e8f0' font-family='sans-serif' font-size='14' font-weight='600'>• Vynance (Finance Intelligence)</text>
+  <text x='460' y='375' fill='#e2e8f0' font-family='sans-serif' font-size='14' font-weight='600'>• Talenty (HR &amp; Competency)</text>
+  <text x='460' y='405' fill='#94a3b8' font-family='sans-serif' font-size='13'>100+ Commercial Projects</text>
+  <text x='460' y='435' fill='#94a3b8' font-family='sans-serif' font-size='13'>98% CSAT &amp; SLA &gt;95%</text>
+
+  <!-- Card 3 -->
+  <rect x='790' y='270' width='330' height='210' rx='14' fill='#1e293b' fill-opacity='0.6' stroke='#334155' stroke-width='1.5' />
+  <text x='815' y='310' fill='#38bdf8' font-family='sans-serif' font-size='18' font-weight='bold'>Operations &amp; Automation</text>
+  <text x='815' y='345' fill='#e2e8f0' font-family='sans-serif' font-size='14' font-weight='600'>• My Diby &amp; Next Marketing</text>
+  <text x='815' y='375' fill='#e2e8f0' font-family='sans-serif' font-size='14' font-weight='600'>• SOP Workflow Engineering</text>
+  <text x='815' y='405' fill='#94a3b8' font-family='sans-serif' font-size='13'>70% Bottlenecks Eliminated</text>
+  <text x='815' y='435' fill='#94a3b8' font-family='sans-serif' font-size='13'>20+ Standard SOPs Created</text>
+
+  <!-- Footer -->
+  <rect x='80' y='520' width='1040' height='56' rx='10' fill='#0284c7' fill-opacity='0.1' stroke='#0284c7' stroke-width='1' />
+  <text x='110' y='555' fill='#f8fafc' font-family='sans-serif' font-size='16' font-weight='bold'>🌐 alvareza.vercel.app/portofolio</text>
+  <text x='1100' y='555' fill='#94a3b8' font-family='sans-serif' font-size='14' text-anchor='end'>MyCivy Platform • Verified Track Record</text>
+</svg>

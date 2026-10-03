@@ -1,0 +1,8 @@
+{
+  "name": "Remix Alvareza",
+  "description": "A professional, navy-accented landing page for ATS-friendly resumes with an integrated system for direct PDF downloads.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

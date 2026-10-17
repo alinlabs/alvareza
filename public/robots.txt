@@ -1,0 +1,27 @@
+User-agent: *
+Allow: /
+Allow: /cv
+Allow: /opt
+Allow: /all
+Allow: /hrs
+Allow: /portofolio
+Allow: /portfolio
+Allow: /sertifikasi
+Allow: /sertifikat
+Allow: /certifications
+Allow: /akademik
+Allow: /skl
+Allow: /transkrip
+Allow: /google80999917237409d2.html
+Allow: /sitemap.xml
+Disallow: /api/send-email-gas
+Disallow: /api/test-gas-account
+
+User-agent: Googlebot
+Allow: /
+Allow: /google80999917237409d2.html
+
+User-agent: Bingbot
+Allow: /
+
+Sitemap: https://alvareza.my.id/sitemap.xml

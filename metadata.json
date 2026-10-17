@@ -1,0 +1,8 @@
+{
+  "name": "alvareza",
+  "description": "Platform CV ATS-Friendly & Portfolio Professional Alvareza Hilka Pratama. Kustomisasi preset peran kerja spesifik, sesuaikan tata letak dan tema, lalu unduh resume PDF siap kirim ke HRD instan.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

@@ -1,0 +1,52 @@
+{
+  "short_name": "MyCivy Admin",
+  "name": "MyCivy Admin Workspace",
+  "description": "Workspace ATS CV Builder, OCR Scanner lowongan kerja, dan sistem pengiriman lamaran email GAS MyCivy.",
+  "icons": [
+    {
+      "src": "/logo.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/logo.svg",
+      "sizes": "192x192 512x512",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    }
+  ],
+  "start_url": "/?pages=admin",
+  "id": "/?pages=admin",
+  "background_color": "#0F172A",
+  "theme_color": "#0F172A",
+  "display": "standalone",
+  "orientation": "portrait",
+  "scope": "/",
+  "shortcuts": [
+    {
+      "name": "Admin Workspace",
+      "short_name": "Admin",
+      "description": "Buka Workspace Admin & OCR Scanner MyCivy",
+      "url": "/?pages=admin",
+      "icons": [
+        {
+          "src": "/logo.svg",
+          "sizes": "192x192"
+        }
+      ]
+    },
+    {
+      "name": "Curriculum Vitae",
+      "short_name": "CV PDF",
+      "description": "Lihat CV ATS-Friendly & Unduh PDF",
+      "url": "/cv",
+      "icons": [
+        {
+          "src": "/logo.svg",
+          "sizes": "192x192"
+        }
+      ]
+    }
+  ]
+}

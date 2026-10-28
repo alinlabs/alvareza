@@ -1,0 +1,52 @@
+{
+  "short_name": "MyCivy",
+  "name": "MyCivy | Generator & Builder CV ATS Professional",
+  "description": "Platform Generator & Customizer CV ATS Professional berbasis preset peran pekerjaan.",
+  "icons": [
+    {
+      "src": "/logo.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/logo.svg",
+      "sizes": "192x192 512x512",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    }
+  ],
+  "start_url": "/",
+  "id": "/",
+  "background_color": "#2A3395",
+  "theme_color": "#2A3395",
+  "display": "standalone",
+  "orientation": "portrait",
+  "scope": "/",
+  "shortcuts": [
+    {
+      "name": "Admin Workspace",
+      "short_name": "Admin",
+      "description": "Buka Workspace Admin & OCR Scanner MyCivy",
+      "url": "/?pages=admin",
+      "icons": [
+        {
+          "src": "/logo.svg",
+          "sizes": "192x192"
+        }
+      ]
+    },
+    {
+      "name": "Curriculum Vitae",
+      "short_name": "CV PDF",
+      "description": "Lihat CV ATS-Friendly & Unduh PDF",
+      "url": "/cv",
+      "icons": [
+        {
+          "src": "/logo.svg",
+          "sizes": "192x192"
+        }
+      ]
+    }
+  ]
+}

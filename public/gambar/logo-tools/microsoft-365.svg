@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" width="100%" height="100%">
+  <defs>
+    <linearGradient id="m365-g1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0078D4"/>
+      <stop offset="100%" stop-color="#005A9E"/>
+    </linearGradient>
+    <linearGradient id="m365-g2" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#28A8EA"/>
+      <stop offset="100%" stop-color="#0078D4"/>
+    </linearGradient>
+    <linearGradient id="m365-g3" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#50E6FF"/>
+      <stop offset="100%" stop-color="#1490DF"/>
+    </linearGradient>
+  </defs>
+  <!-- Microsoft 365 Hexagonal Loop -->
+  <path d="M50 12 L78 28 L78 54 L50 38 Z" fill="url(#m365-g2)"/>
+  <path d="M78 54 L78 72 L50 88 L50 70 Z" fill="url(#m365-g1)"/>
+  <path d="M50 88 L22 72 L22 46 L50 62 Z" fill="url(#m365-g2)"/>
+  <path d="M22 46 L22 28 L50 12 L50 30 Z" fill="url(#m365-g3)"/>
+  <!-- Central Ribbon Connection -->
+  <path d="M50 30 L64 38 L50 46 L36 38 Z" fill="#28A8EA" opacity="0.9"/>
+  <path d="M50 46 L64 54 L50 62 L36 54 Z" fill="#0078D4" opacity="0.95"/>
+  <path d="M50 62 L64 70 L50 78 L36 70 Z" fill="#004E8C"/>
+</svg>

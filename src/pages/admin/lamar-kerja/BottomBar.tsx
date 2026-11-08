@@ -1,0 +1,31 @@
+import React from 'react';
+import { Send } from 'lucide-react';
+import { BottomBarProps } from './types';
+
+export const BottomBar: React.FC<BottomBarProps> = ({
+  onOpenApplyModal,
+  isLoading = false,
+}) => {
+  return (
+    <div
+      id="job-apply-bottom-bar"
+      className="fixed bottom-0 left-0 right-0 z-40 print:hidden p-3 sm:p-4 pointer-events-none hidden md:flex justify-center"
+    >
+      <div className="w-full max-w-6xl mx-auto px-1 sm:px-2">
+        <button
+          id="btn-lamar-sekarang"
+          type="button"
+          onClick={onOpenApplyModal}
+          disabled={isLoading}
+          className="pointer-events-auto w-full py-3.5 sm:py-4 px-6 rounded-2xl font-bold text-base sm:text-lg text-white bg-blue-600 hover:bg-blue-700 active:scale-[0.98] transition-all duration-150 border border-blue-500 cursor-pointer disabled:opacity-75 disabled:cursor-not-allowed focus:outline-none focus:ring-2 focus:ring-blue-400 focus:ring-offset-2 flex items-center justify-center gap-2 text-center shadow-lg"
+        >
+          <Send className="w-5 h-5" />
+          <span>{isLoading ? 'Memproses Draf...' : 'Lamar Pekerjaan Sekarang'}</span>
+        </button>
+      </div>
+    </div>
+  );
+};
+
+export const JobApplyBottomBar = BottomBar;
+export default BottomBar;

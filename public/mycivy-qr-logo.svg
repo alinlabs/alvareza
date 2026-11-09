@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 130 32" width="130" height="32">
+  <!-- Clean white background without outline -->
+  <rect width="130" height="32" rx="6" fill="#ffffff"/>
+  
+  <!-- Centered Digital Profile Brand Text -->
+  <text x="65" y="16" text-anchor="middle" dominant-baseline="central" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="13" font-weight="900" letter-spacing="-0.3">
+    <tspan fill="#0062E3">Digital </tspan><tspan fill="#0F172A">Profile</tspan>
+  </text>
+</svg>

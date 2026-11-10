@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="100%" height="100%">
+  <!-- Circle Biru #2A3395 -->
+  <circle cx="256" cy="256" r="256" fill="#2A3395"/>
+
+  <!-- Teks Huruf 'a' Kecil Presisi di Tengah -->
+  <text
+    x="256"
+    y="264"
+    text-anchor="middle"
+    dominant-baseline="central"
+    fill="#ffffff"
+    font-family="system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Inter', 'Helvetica Neue', Arial, sans-serif"
+    font-size="330"
+    font-weight="800"
+    letter-spacing="-0.02em"
+  >a</text>
+</svg>

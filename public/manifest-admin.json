@@ -1,0 +1,52 @@
+{
+  "short_name": "Digital Profile Admin",
+  "name": "Digital Profile Admin Workspace",
+  "description": "Workspace ATS CV Builder, OCR Scanner lowongan kerja, dan sistem pengiriman lamaran email GAS Digital Profile.",
+  "icons": [
+    {
+      "src": "/logo.ico",
+      "sizes": "64x64 32x32 24x24 16x16",
+      "type": "image/x-icon",
+      "purpose": "any"
+    },
+    {
+      "src": "/logo.webp",
+      "sizes": "192x192 512x512",
+      "type": "image/webp",
+      "purpose": "any maskable"
+    }
+  ],
+  "start_url": "/search?page=admin&pwa=admin",
+  "id": "/search?page=admin&pwa=admin",
+  "background_color": "#0F172A",
+  "theme_color": "#0F172A",
+  "display": "standalone",
+  "orientation": "portrait",
+  "scope": "/",
+  "shortcuts": [
+    {
+      "name": "Admin Workspace",
+      "short_name": "Admin",
+      "description": "Buka Workspace Admin & OCR Scanner Digital Profile",
+      "url": "/search?page=admin",
+      "icons": [
+        {
+          "src": "/logo.webp",
+          "sizes": "192x192"
+        }
+      ]
+    },
+    {
+      "name": "Curriculum Vitae",
+      "short_name": "CV PDF",
+      "description": "Lihat CV ATS-Friendly & Unduh PDF",
+      "url": "/cv",
+      "icons": [
+        {
+          "src": "/logo.webp",
+          "sizes": "192x192"
+        }
+      ]
+    }
+  ]
+}

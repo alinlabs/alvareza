@@ -1,0 +1,16 @@
+User-agent: *
+Allow: /
+Allow: /google80999917237409d2.html
+Allow: /sitemap.xml
+Disallow: /api/send-email-gas
+Disallow: /api/test-gas-account
+
+User-agent: Googlebot
+Allow: /
+Allow: /google80999917237409d2.html
+Allow: /sitemap.xml
+
+User-agent: Bingbot
+Allow: /
+
+Sitemap: https://alvareza.my.id/sitemap.xml
